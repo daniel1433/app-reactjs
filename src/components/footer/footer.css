@@ -1,0 +1,36 @@
+.footer-content {
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #343a40;
+    color: #fff;
+    outline: 2xp solid #343a40;
+}
+
+.network-item {
+    justify-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.network-item p a {
+    text-decoration: none;
+    color: #fff;
+    cursor: none;
+}
+
+.network-item:hover {
+    cursor: pointer;
+    color: #999;
+}
+
+.network-item:hover > p a{
+    cursor: pointer;
+    color: #999;
+}
+
+
+.network-item i {
+    font-size: 2rem;
+}
