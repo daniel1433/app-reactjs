@@ -16,8 +16,8 @@ export default class LoginCtr extends React.Component<LoginProps>{
 
     api: API = new API();
     state = {
-        userName: "jdanielps013@gmail.com"
-        , password: "12345678"
+        userName: "user_test@gmail.com"
+        , password: "123456"
         , showMessage: false
         , message: ""
     }

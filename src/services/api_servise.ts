@@ -31,7 +31,7 @@ export default class API {
     async post(uri: string, body: any) {
         let allUri: string = `${process.env.REACT_APP_API_URL}/${uri}`;
         this.requestOptions.body = body ? JSON.stringify(body) : "";
-        console.log(this.requestOptions.body);
+        this.requestOptions.method = "POST";
         return fetch(allUri, this.requestOptions).then(result => result.json());
     }
 

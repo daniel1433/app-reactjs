@@ -14,17 +14,16 @@ const Footer: React.FC<FooterCtr> = (props: FooterCtr) => {
                     </div>
                 </div>
                 <div className="col-3 network-item">
-                    <i className="fab fa-instagram"></i>
-                    <p><a href="#">Instagram</a></p>
+                    <p><a href="https://www.instagram.com/"><i className="fab fa-instagram"></i> <br/><span>Instagram</span></a></p>
                 </div>
-                <div className="col-3 network-item"><i className="fab fa-facebook-square"></i>
-                    <p><a href="#">Facebook</a></p>
+                <div className="col-3 network-item">
+                    <p><a href="https://www.facebook.com/"><i className="fab fa-facebook-square"></i><br/><span>Facebook</span></a></p>
                 </div>
-                <div className="col-3 network-item"><i className="fab fa-youtube-square"></i>
-                    <p><a href="#">youtube</a></p>
+                <div className="col-3 network-item">
+                    <p><a href="https://www.youtube.com/"><i className="fab fa-youtube-square"></i><br/><span>youtube</span></a></p>
                 </div>
-                <div className="col-3 network-item"><i className="fab fa-twitter-square"></i>
-                    <p><a href="#">Twitter</a></p></div>
+                <div className="col-3 network-item">
+                    <p><a href="https://twitter.com/"><i className="fab fa-twitter-square"></i><br/><span>Twitter</span></a></p></div>
             </div>
         </div>
     </div>;
